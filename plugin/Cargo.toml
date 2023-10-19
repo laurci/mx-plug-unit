@@ -1,0 +1,13 @@
+[package]
+name = "mx-plug-unit-impl"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+mx-plug-core = { git = "https://github.com/laurci/mx-plug.git" }
+unit-crossbar-client = { git = "https://github.com/laurci/unit.git" }
+shared = { path = "../shared" }
+tokio = { version = "1.33.0", features = ["full"] }

@@ -1,0 +1,9 @@
+[package]
+name = "mx-plug-unit"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+mx-plug-bridge = { git = "https://github.com/laurci/mx-plug.git" }
+shared = { path = "../shared" }
+
