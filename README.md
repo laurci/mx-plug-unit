@@ -1,6 +1,8 @@
 # mx-plug-unit
 
-MultiversX Plugin for pushing events to the unit crossbar. Checkout more info [here](https://unit.planck.ws).
+MultiversX Plugin for pushing events to the unit crossbar. 
+
+Learn more about this repository [here](https://laurci.notion.site/XDay-Hackathon-Log-087f6778a60245f58a4e0d9e2bea3b95?pvs=4).
 
 This plugin is a wrapper around the unit corssbar API client.
 
